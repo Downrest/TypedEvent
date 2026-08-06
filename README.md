@@ -26,5 +26,5 @@ The usage of type functions is heavily inspired from how [NamedSignal](https://g
 ---
 Download either 1) thru the [latest github release](https://github.com/Downrest/TypedEvent/releases) or 2) thru [wally](https://wally.run/package/downrest/typedevent):
 ```lua
-TypedEvent = "downrest/typedevent@1.0.2"
+TypedEvent = "downrest/typedevent@1.0.4"
 ```
