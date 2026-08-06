@@ -1,5 +1,6 @@
 # TypedEvent
 [![Wally](https://img.shields.io/badge/Wally-Package-orange?style=for-the-badge)](https://wally.run/package/downrest/typedevent)
+
 A typed remote event wrapper, taking advantage of function types `(...) -> ()` for typechecking parameters with names on both firing and listening.
 
 By default, TypedEvent  creates the remote instances behind the scenes, merely requiring a unique name.
