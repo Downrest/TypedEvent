@@ -24,13 +24,7 @@ event.server:FireAllClients(true, false) -- TypeError: Expected this to be `stri
 The usage of type functions is heavily inspired from how [NamedSignal](https://github.com/averlyst/NamedSignal) handles its signal signatures, allowing anonymous autofills to include the parameter names + further verbosity when casting types.
 
 ---
-<<<<<<< HEAD
 Download either 1) thru the [latest github release](https://github.com/Downrest/TypedEvent/releases) or 2) thru (wally)[https://wally.run/package/downrest/typedevent]:
 ```lua
 TypedEvent = "downrest/typedevent@1.0.2"
-=======
-Download either 1) thru the [latest github release](https://github.com/Downrest/TypedEvent/releases) or 2) thru wally:
-```lua
-TypedEvent = "downrest/typedevent@1.0.1"
->>>>>>> 11c8149c34dcc1a1c995a991c7b15d690cd7c2c3
 ```
