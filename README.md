@@ -13,7 +13,7 @@ Alternatively, you can also reference existing remote instances.
 
 Event's API is *almost* 1:1 with Roblox remote instances' API, with the exception having methods split into `client` and `server`:
 ```lua
-local event = Event.newReliable():: Event.ServerToClient<(foo: boolean, fee: string) -> ()>
+local event = TypedEvent.newReliable():: TypedEvent.ServerToClient<(foo: boolean, fee: string) -> ()>
 
 -- will automatically define the parameters `foo` and `fee` with the defined types
 event.client.OnClientEvent:Connect(function(foo: boolean, fee: string) 
